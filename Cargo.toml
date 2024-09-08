@@ -1,0 +1,18 @@
+[package]
+name = "ocr-redact"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.87"
+ocrs = "0.8.1"
+pdfium-render = "0.8.25"
+rten = "0.13.1"
+rten-imageproc = "0.13.1"
+rten-tensor = "0.13.1"
+image = "0.25.2"
+imageproc = "0.25.0"
+clap = { version = "4.5.17", features = ["derive"] }
+regex = "1.10.6"
+tracing-subscriber = "0.3.18"
+tracing = "0.1.40"
